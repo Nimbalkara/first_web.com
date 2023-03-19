@@ -1,0 +1,94 @@
+body{
+
+  background-color: rgb(189, 127, 12);
+  grid-template-columns: repeat(2,1fr);
+
+}
+
+
+.one{
+
+  margin: 10px;
+  color: rgb(5, 5, 129);
+  font-weight: bold;
+  background-color: antiquewhite;
+padding: 25px;
+
+
+
+
+
+}
+.box-1{
+
+  padding: 2px;
+  margin: 17px;
+ float: right;
+border: 2px solid rgb(19, 19, 2);
+}
+
+.two{
+
+  margin: 10px;
+  color: rgb(5, 5, 129);
+  font-weight: bold;
+  background-color: antiquewhite;
+padding: 25px;
+
+
+}
+.box-2{
+
+  padding: 2px;
+  margin: 17px;
+ float: left;
+border: 2px solid rgb(19, 19, 2);
+}
+
+.three{
+
+  margin: 10px;
+  color: rgb(5, 5, 129);
+  font-weight: bold;
+  background-color: antiquewhite;
+padding: 25px;
+
+
+}
+.box-3{
+
+  padding: 2px;
+  margin: 17px;
+ float: right;
+border: 2px solid rgb(19, 19, 2);
+}
+
+.four{
+
+  margin: 10px;
+  color: rgb(5, 5, 129);
+  font-weight: bold;
+  background-color: antiquewhite;
+padding: 25px;
+
+
+}
+.box-4{
+
+  padding: 2px;
+  margin: 17px;
+ float: left;
+border: 2px solid rgb(19, 19, 2);
+}
+
+
+
+
+@media screen and (min-width:200px ) and (max-width:500px){
+
+.main{
+
+  grid-template-columns:(2,1fr);
+  background-image: url(8.png);
+  }
+}
